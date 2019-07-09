@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inscription</title>
+	<link rel="stylesheet" type="text/css" href="style/index-style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+</head>
+<body>
+	<header>
+		<h1><img style="width: 20%; position:relative;left: 50%;transform: translate(-50%,0);" src="style/img/artips.png"></h1>
+	</header>
+	
+	 
+	<form id="formulaire" name="formulaire" method="POST" action="script/script.php">
+		<h2>Inscription</h2>
+		<div class="form-col"></div>
+		<label><input type="email" name="email" id="email" placeholder="email*"></label><br>
+
+		<div class="form-col"><p style="color: #950037; font-size: 10px;" id="erreur-pwd"></p></div>
+		<label><input type="password" name="pwd1" id="pwd1" placeholder="mot de passe*"></label><br>
+		<label><input type="password" name="pwd2" id="pwd2" placeholder="confirmer le mot de passe*"></label><br>
+
+		
+		<div class=form-col><p style="color: #950037; font-size: 10px;" id="erreur-prenom"></p></div>
+		<label><input type="text" name="prenom" id="prenom" placeholder="Prénom*"></label>
+
+		<div class="form-col"><p style="color: #950037; font-size: 10px;" id="erreur-nom"></div>
+		<label><input type="text"  name="nom" id="nom" placeholder="Nom*"></label>
+
+		<div class="form-col"></p></div>
+		<label><input name="sex" type="checkbox" value="F">Femme</label>
+		<label><input name="sex" type="checkbox" value="H">Homme</label>
+
+		<div class="form-col"></div>
+		<label id="btn"><input class="btn" id="submit" type="submit" value="Valider"></label>
+
+		<footer>
+		<div style="text-align: center; ">
+			<p>* Champ obligatoire</p>
+		</div>
+	</footer>
+	</form>
+
+	
+	<p style="color: red;" id="erreur"></p>
+	<p style="color: red;" id="erreur-pwd"></p>
+
+	
+
+</body>
+<script type="text/javascript" src="script/index-script.js"></script>
+</html>

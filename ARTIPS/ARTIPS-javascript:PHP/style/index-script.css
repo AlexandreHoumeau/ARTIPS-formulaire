@@ -1,0 +1,20 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-image: url('../style/img/bg_artips.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 7vh;
+}
+
+h1{
+	font-family:'Roboto';
+	position: relative;
+	color: #950037;
+	font-size: 3vw;
+
+}

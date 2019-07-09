@@ -1,0 +1,50 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{	
+	font-family:'Roboto';
+}
+
+header{
+	background-image: url('img/bg_artips.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 7vh;
+}
+
+#formulaire{
+	text-align: center;
+	border: 3px solid #950037;
+	border-radius: 5px;
+	box-shadow: 20px -20px  #950037;
+	width: 20%;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,20%);
+	min-width: 250px;
+	background-color: white;
+}
+
+input[type=text], [type=password], [type=email]{
+	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+  	border: 2px solid #950037;
+  	border-radius: 4px;
+}
+
+input[type=submit]{
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+  	border: 2px solid #950037;
+  	border-radius: 4px;
+
+}
+
+input[type=submit] a:hover{
+	cursor: pointer;
+}
+
